@@ -1,5 +1,19 @@
 /*# sourceMappingURL=style.css.map */
 
-body {
-    background-image: url(../img/abstract-astronomy-constellation-1025469.jpg);
+.navbar{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar-light .navbar-brand, #navbarNavDropdown > ul> li > a{
+    color: white;
+}
+
+.jumbotron{
+    background-color: rgba(0,0,0,0.5);
+}
+
+#carouselExampleSlidesOnly > div > div:nth-child(2) > div > div > div,#carouselExampleSlidesOnly > div > div:nth-child(3) > div > div > div{
+    margin-bottom: 10rem;
 }
