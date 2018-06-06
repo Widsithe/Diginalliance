@@ -17,3 +17,13 @@
 #carouselExampleSlidesOnly > div > div:nth-child(2) > div > div > div,#carouselExampleSlidesOnly > div > div:nth-child(3) > div > div > div{
     margin-bottom: 10rem;
 }
+
+.figure{
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+}
+
+.figure img{
+    min-width: 100%;
+}
