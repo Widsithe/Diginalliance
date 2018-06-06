@@ -15,25 +15,80 @@
 </head>
 
 <body>
-    <div class="container mt-4">
-        <div class="jumbotron text-center">
-            <h1 class="display-4">Diginalliance, l'alliance des héros.</h1>
-            <p class="lead">Et voilà, l'heure est arrivée.</p>
-            <div class="text-center">
-                <figure class="figure">
-                    <img id="monImage" src="src/img/logo.png" class="figure-img img-fluid rounded" alt="Sublime logo">
-                </figure>
-            </div>
-            <hr class="my-4">
-            <p class="text-left"> Après moult heures passées devant les écrans, jonglant entre les technologies comme jaja, l'équipe est complète.
-                <p class="text-left"> Profitant de ses membres comme véritables moteurs, Diginalliance avance, inexorablement, vers une victoire tout aussi certaine qu'écrasante.</p>
-                <p class="text-left"> L'idée ici est simple : soit tu es avec nous, sois tu ne l'es pas. Et si tu n'es pas avec nous, alors ça veut dire que nous ne sommes pas avec toi. Ce qui veut dire, si tu suis, que nous ne sommes pas ensemble. Et ça c'est pas cool.</p>
-                <p class="lead text-center">N'hésite plus, ami colonisateur, et viens rejoindre ce qu'il se fait de mieux sur Aquarius</p>
-                <div class="text-center">
-                    <a href="#" class="btn btn-primary" id="viens">Rejoins nous !</a>
-                </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><img src="src/img/logo.png" width="30%"> Diginalliance</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/login') }}">Membre éminents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/register') }}">Rejoindre</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
+    <header id="myCarousel" class="carousel slide carousel-fade intro-slider-half">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="src/img/space-54999.jpg" height="700px" alt="First slide" width="640px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="container mt-4">
+                            <div class="jumbotron text-center">
+                                <h1 class="display-4">Diginalliance, l'alliance des héros.</h1>
+                                <p class="lead">Et voilà, l'heure est arrivée.</p>
+                                <div class="text-center">
+                                    <figure class="figure">
+                                        <img id="monImage" src="src/img/logo.png" class="figure-img img-fluid rounded" alt="Sublime logo">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/img/astronomy-3209688_1280.jpg" width="640px"  height="700px" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="container mt-4">
+                            <div class="jumbotron text-center">
+                                <div class="text-center">
+                                    <p class="text-left"> Après moult heures passées devant les écrans, jonglant entre les technologies comme jaja, l'équipe est complète.
+                                        <p class="text-left"> Profitant de ses membres comme véritables moteurs, Diginalliance avance, inexorablement, vers une victoire tout aussi certaine qu'écrasante.</p>
+                                        <p class="text-left"> L'idée ici est simple : soit tu es avec nous, sois tu ne l'es pas. Et si tu n'es pas avec nous, alors ça veut dire que nous ne sommes pas avec toi. Ce qui veut dire, si tu suis, que nous ne sommes pas ensemble. Et ça c'est pas cool.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="src/img/wallpaper-1477870_1280.jpg" width="640px" height="700px"  alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="container mt-4">
+                            <div class="jumbotron text-center">
+                                <p class="lead text-center">N'hésite plus, ami colonisateur, et viens rejoindre ce qu'il se fait de mieux sur Aquarius</p>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary" id="viens">Rejoins nous !</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
 
     <script src="src/js/jquery3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
