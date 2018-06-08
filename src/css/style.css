@@ -346,3 +346,17 @@ div.container.membre > section.home-section > div > div.row.actuali > div > arti
         line-height: 15px;
     }
 }
+a.btn.btn-circle.js-scroll-trigger {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%);
+    background-color: #bbb9b9db;
+    border-radius: 50%;
+    width: 60px;
+    min-width: 60px;
+    padding: 0;
+    height: 60px;
+    color: #3e3e3e;
+    font-size: 26px;
+}
