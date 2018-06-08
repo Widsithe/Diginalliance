@@ -25,6 +25,10 @@ h6 {
     color: white;
 }
 
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(190,223,234,.9);
+}
+
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.5);
 }
