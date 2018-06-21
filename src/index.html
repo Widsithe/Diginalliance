@@ -8,6 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    <link href="src/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="src/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="src/css/bootstrap-grid.min.css">
@@ -28,10 +31,10 @@
                     <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/login') }}">Membre éminents</a>
+                    <a class="nav-link" href="#membre">Membres</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/register') }}">Rejoindre</a>
+                    <a class="nav-link" href="#rejoindre">Rejoindre</a>
                 </li>
             </ul>
         </div>
@@ -41,23 +44,28 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="src/img/space-54999.jpg" height="700px" alt="First slide" width="640px">
+                    <div class="figure">
+                        <img class="d-block w-100" src="src/img/slide.jpg" alt="First slide" width="auto">
+                    </div>
+
                     <div class="carousel-caption d-none d-md-block">
                         <div class="container mt-4">
                             <div class="jumbotron text-center">
                                 <h1 class="display-4">Diginalliance, l'alliance des héros.</h1>
                                 <p class="lead">Et voilà, l'heure est arrivée.</p>
                                 <div class="text-center">
-                                    <figure class="figure">
-                                        <img id="monImage" src="src/img/logo.png" class="figure-img img-fluid rounded" alt="Sublime logo">
-                                    </figure>
+
+                                    <img id="monImage" src="src/img/logo.png" class="figure-img img-fluid rounded" alt="Sublime logo">
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="src/img/astronomy-3209688_1280.jpg" width="640px"  height="700px" alt="Second slide">
+                    <div class="figure">
+                        <img class="d-block w-100" src="src/img/slide2.jpg" width="auto" alt="Second slide">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <div class="container mt-4">
                             <div class="jumbotron text-center">
@@ -72,7 +80,9 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="src/img/wallpaper-1477870_1280.jpg" width="640px" height="700px"  alt="Third slide">
+                    <div class="figure">
+                        <img class="d-block w-100" src="src/img/slide3.jpg" width="auto" alt="Third slide">
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <div class="container mt-4">
                             <div class="jumbotron text-center">
@@ -85,9 +95,250 @@
                     </div>
                 </div>
             </div>
+            <a href="#member" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
         </div>
     </header>
+        <section id="presentation" class="home-section">
+        <div class="container">
+            <div id="member" class="page-header text-center">
+                <h2 class="home-section_title text-uppercase">Présentation de Diginalliance</h2>
+                
+                <p>"Bonjour. <br>
+En bref : Nous sommes les meilleurs. Surtout Pakouac. C'est notre commodore chef, le liant de cette alliance. C'est grâce à lui que nous sommes devenus une famille. Unie dans les liens du sang et du métal.
+Alors si vous avez été abandonnés et que vous cherchez à nous rejoindre, n'hésitez plus, rejoignez nous et donnez nous votre cristal. 
+Bisous."</p>
+            </div>
+            <div class="row actuali">
 
+
+
+            </div>
+        </div>
+    </section>
+    <div id="membre" class="container membre">
+        <section class="home-section">
+            <div class="container">
+                <div id="member" class="page-header text-center">
+                    <h2 class="home-section_title text-uppercase">Membre de l'alliance</h2>
+                </div>
+                <div class="row actuali">
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/louis.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Pakouac</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Fondateur</p>
+                                </div>
+                                <p>"Qui est chaud pour s'inscrire sur Ogame et casser du cul ??" 10 jours plus tard : "Wow, énorme"</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/marine.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Jadziah</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Master Website</p>
+                                </div>
+                                <p>"Tu vois, le monde se divise en deux catégories: ceux qui ont un lanceur de plasma chargé et ceux qui creusent. Toi tu creuses." - Suricate sans cou, violeur d'anus since 2018</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/trecy.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Pt1teSoeur</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Master Logo</p>
+                                </div>
+                                <p>Frissonnante, elle ressemblait à leur propre façon, et sans eux elle ne retrouva la parole : messieurs, leur dit-elle d'un ton sinistre. Arrêtez les décharges, on ne substitue pas ces allées sinueuses.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/david.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Sangle au cou</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>"Faut arrêter ces conneries de nord et de sud ! Une fois pour toutes, le nord, suivant comment on est tourné, ça change tout !"</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/flo.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Stetson00</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue,Tu m'excite la fondue.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/pierre.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Maven</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>Le cheval de Corlay, ou demi-sang de Corlay, est un type de cheval demi-sang issu de croisements pratiqués autour de la ville de Corlay en Bretagne, entre les juments locales de race bidet breton et des étalons importés, principalement de race pur-sang.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/vivien.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">JavaBien</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>Zélé dans l'accomplissement des devoirs de son métier, pourquoi cherche-t-il si longtemps ses mots ? Lisez les histoires, vous trouverez dans cette lettre seront punis comme coupables de la révolution. Dédommagera-t-il la princesse des animosités qui l'entourent doivent le servir, et on comprend mieux que le vrai.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/thomas.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">DocThomus</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>En chantant, il faut gigoter les coudes et les mains et taper des mains, les taper sur la table ou sur votre tête en rythme. Les autres joueurs doivent vous arrêter à votre score." - Perceval "Elle est ou la poulette" - Akadok</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/faycel.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Fayce</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>Enveloppés d'épaisse mélancolie, et l'inertie électromagnétique. Revenir triomphant, capitaine, bonne proie, capitaine, encore qu'il fût bien loin, monsieur. Vis-à-vis de Louis, se faire comprendre est obligé de l'enlever de force le lendemain et les jours suivants. Chevaliers, punissez avec sévérité.</p>
+                            </div>
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/ludo.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Bankz</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>Je suis un connard qui attaque les nouveaux , j'achète de antimatière et qui vend son âme pour la postérité a dta</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/brandon.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Brendon</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p> Je n'ai pas de personnalité</p>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-xs-12">
+                        <article class="thumbnail post post--lg bshadow bg-white actu-thumb">
+                            <a href="#" class="btn-read-more col-lg-3 col-md-3 col-xs-3">
+                     <img src="src/img/florian.jpg">
+                 </a>
+                            <div class="caption caption-new col-lg-9 col-md-9 col-xs-9">
+                                <h2 class="thumbnail_title"><a href="#">Florian</a></h2>
+                                <div class="thumbnail_info">
+                                    <p>Big Boss</p>
+                                </div>
+                                <p>"Un renardeau à l'ADN douteux et au physique scandaleusement faible s'est mis en tête de compenser sa force par son intelligence avancée, et essaie de briller par son charisme et ses compétences en code pour refaire l'univers à son image, dans un excès d'égocentrisme et d'envie de plaire au plus grand nombre, en abattant ses ennemis par des poses mignonnes qui soumettent les plus brutaux de ses ennemis, son pelage soyeux qui fait tourner de l'oeil, et ses lignes de code au delà du commun des mortels."</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="rejoindre" class="home-section">
+        <div class="container">
+            <div id="member" class="page-header text-center">
+                <h2 class="home-section_title text-uppercase">Contact</h2>
+            </div>
+
+            <form name="diginaliance" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Nom</label>
+                    <input type="text" class="form-control" id="exampleInputName" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Prénom</label>
+                    <input type="text" class="form-control" id="exampleInputName" placeholder="Prénom">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Envoyer"/>
+            </form>
+
+
+        </div>
+
+    </section>
 
 
     <script src="src/js/jquery3.js"></script>
@@ -95,6 +346,7 @@
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/bootstrap.bundle.min.js"></script>
     <script src="src/js/scripts.js"></script>
+    <script src="src/js/server.js"></script>
 </body>
 
 </html>
