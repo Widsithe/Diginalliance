@@ -18,4 +18,4 @@ function envoi() {
   else // tout va bien, on envoie le formulaire
    document.formu.action='mailto:trecy.christine.fournier@gmail.com?subject="message"';
  }
-
+}
